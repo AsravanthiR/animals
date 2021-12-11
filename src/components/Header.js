@@ -1,11 +1,29 @@
 import React from "react";
-import Nav from "./Nav";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <h1>Animals app</h1>
-      <Nav />
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">
+              <h2>Home</h2>
+            </Link>
+          </li>
+          <li>
+            <Link to="/About">
+              <h2>About</h2>
+            </Link>
+          </li>
+          <li>
+            <Link to="/animals">
+              <h2>Animals</h2>
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };

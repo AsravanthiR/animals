@@ -7,10 +7,10 @@ import { BrowserRouter as Routes, Route } from "react-router-dom";
 const Main = () => {
   return (
     <main>
-      <div>
+      <div className="main">
         <Routes>
           <Route path="/" exact component={Home} />
-          <Route path="/animals" component={AnimalList} />
+          <Route path="/Animals" component={AnimalList} />
           <Route path="/About" component={About} />
         </Routes>
       </div>

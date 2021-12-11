@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 0.34715821812596004) 11%,
+    rgba(200, 45, 253, 0.8421743697478992) 52%,
+    rgba(34, 193, 195, 0.34715821812596004) 100%
+  );
+}
 .card {
   background-color: snow;
   box-shadow: 0 0 5px rgb(red, green, blue);
@@ -21,4 +32,40 @@
   width: 100%;
   object-fit: cover;
   border-radius: 5px 5px 0 0;
+}
+footer {
+  /*padding: 2rem;
+  text-align: center;
+  position: relative;*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+}
+header,
+footer {
+  background: rgb(228, 208, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 170, 255, 0.07466736694677867) 0%,
+    rgb(247, 196, 242) 24%
+  );
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 5.5rem;
+}
+.main {
+  overflow: auto;
+  padding-bottom: 180px;
+
+  height: 50vh;
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
 }
