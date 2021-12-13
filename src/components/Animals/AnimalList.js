@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { animals } from "./animals";
 import AnimalCard from "./AnimalCard";
-import { Switch, Route } from "react-router";
+import { Switch, Route } from "react-router-dom";
 import AnimalSingle from "./AnimalSingle";
 class AnimalList extends Component {
   state = {

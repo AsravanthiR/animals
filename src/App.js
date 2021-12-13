@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
@@ -12,6 +12,7 @@ const App = () => {
       <Router>
         <Header />
         <Main />
+        <Footer />
       </Router>
     </div>
   );
