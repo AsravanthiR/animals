@@ -5,23 +5,23 @@ body {
   background: linear-gradient(
     0deg,
     rgba(34, 193, 195, 0.34715821812596004) 11%,
-    rgba(200, 45, 253, 0.8421743697478992) 52%,
-    rgba(34, 193, 195, 0.34715821812596004) 100%
+    rgba(34, 195, 132, 0.9906337535014006) 100%
   );
+  background: url("./components/images/animal.png") no-repeat center
+    center/cover;
 }
 .card {
-  background-color: snow;
+  background-color: rgb(133, 146, 15);
   box-shadow: 0 0 5px rgb(red, green, blue);
   width: 200px;
   border-radius: 5px;
   display: inline-block;
   margin: 1rem;
   text-transform: capitalize;
-  filter: grayscale(100%);
   transition: all 0.5sec;
 }
 .card :hover {
-  box-shadow: 0 0 5px rgb(red, green, blue);
+  box-shadow: 0 0 5px rgb(red, green, rgb(160, 160, 219));
   filter: grayscale(0%);
   cursor: pointer;
 }
@@ -50,7 +50,7 @@ footer {
   background: linear-gradient(
     90deg,
     rgba(0, 170, 255, 0.07466736694677867) 0%,
-    rgb(247, 196, 242) 24%
+    rgb(196, 247, 217) 24%
   );
 }
 header {

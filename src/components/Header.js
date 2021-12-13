@@ -1,26 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <h1>Animals app</h1>
+
       <nav>
         <ul>
           <li>
-            <Link to="/">
+            <NavLink to="/">
               <h2>Home</h2>
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/About">
+            <NavLink to="/About">
               <h2>About</h2>
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/animals">
+            <NavLink to="/animals">
               <h2>Animals</h2>
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
